@@ -53,11 +53,12 @@ Users can browse hotels nearby if browser location is turn on or type their dest
     - Note: The [Google API](https://console.cloud.google.com/apis/library?project=genuine-tuner-154003&rif_reserved) was used to collect this data. Create a `.env` file in root dir and add your Google API key as `REACT_APP_API_KEY`
 
 ## To Do
+
 - [ ] Implement light mode & dark mode
 - [ ] Add aria
 - [ ] Add loading spinner to the Enter by Destination option
 - [ ] Allow users to press enter to search Enter by Destination
-- [ ] 
+
 
 ##Deploy to Heroku
 
@@ -76,6 +77,7 @@ To run the React App in development, checkout the [README](./react-app/README.md
    psycopg2-binary MUST remain a dev dependency because you can't install it on apline-linux.
    There is a layer in the Dockerfile that will install psycopg2 (not binary) for us.
 ***
+
 
 ## Deploy to Heroku
 
