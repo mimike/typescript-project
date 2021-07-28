@@ -15,11 +15,11 @@
 ## Technologies/Languauges
 
 - React/Redux
+-  TypeScript
+-  Flask
 -  [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview?hl=en_US)
 -  [Geolocation API](https://developers.google.com/maps/documentation/geolocation/overview?hl=en_US)
 -  [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview?hl=en_US)
--  TypeScript
--  Flask
 
 ## How to Use Travelp
 
