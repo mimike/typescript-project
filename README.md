@@ -28,14 +28,35 @@
 
 ## Main Technical Features
 
-Users can browse hotels nearby if browser location is turn on or type their destination in a search box.
+Travelp is a web application where users can browse hotels by geolocation select their destination in a search box.
+
+The Google API was used to collect this data. 
+
+If users turn their browser's location on, we make a call to Google Places API with their location's latitude and longitude with the type set to lodging. The radius is set to 5000 meters. We make second call to Places API with the placeid to collect data on the hotel's reviews. 
+
+For users who choose to block their location, we collect their latitude and longitude by Geocoding the location they type into a search box. Users type into a search box which displays a dropdown of autocomplete locations by making a call to https://maps.googleapis.com/maps/api/js?key=${api_key}&libraries=places. 
+
+Here is the route for collecting hotel data for a user's location if they have their browser's location turned on:
+
+<a href="https://ibb.co/f8GTL0K"><img src="https://i.ibb.co/XykGMJd/Screen-Shot-2021-07-28-at-18-27-16.png" alt="Screen-Shot-2021-07-28-at-18-27-16" border="0"></a>
+
+The greatest challenge was...
+
+## Application UI Design
+
 
 <a href="https://ibb.co/PwhHzKh"><img src="https://i.ibb.co/9sT536T/Screen-Shot-2021-07-28-at-16-19-15.png" alt="Screen-Shot-2021-07-28-at-16-19-15" border="0"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/Jpw0tWR/Screen-Shot-2021-07-28-at-17-50-31.png" alt="Screen-Shot-2021-07-28-at-17-50-31" border="0"></a>
 <a href="https://ibb.co/vzkYQy3"><img src="https://i.ibb.co/Lp15Jjx/Screen-Shot-2021-07-28-at-17-51-43.png" alt="Screen-Shot-2021-07-28-at-17-51-43" border="0"></a>
 <a href="https://ibb.co/BN87WDH"><img src="https://i.ibb.co/dgn3C9s/Screen-Shot-2021-07-28-at-17-53-13.png" alt="Screen-Shot-2021-07-28-at-17-53-13" border="0"></a>
 
-## To Do
+## Architectural Overview
+
+M - 
+V - React
+C - 
+
+## Near Future Goals
 
 - [ ] Implement light mode & dark mode
 - [ ] Add aria
