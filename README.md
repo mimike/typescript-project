@@ -30,6 +30,8 @@
 
 Users can browse hotels nearby if browser location is turn on or type their destination in a search box.
 
+![Landing](./documentation/hotgallery.png) 
+
 ## Instructions
 1. Clone repo `git clone https://github.com/mimike/mapstest.git .`
 2. Install dependencies
