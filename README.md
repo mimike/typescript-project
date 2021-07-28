@@ -30,7 +30,7 @@
 
 Users can browse hotels nearby if browser location is turn on or type their destination in a search box.
 
-![Landing](./documentation/hotgallery.png) 
+![Landing](https://github.com/mimike/typescript-project/issues/1#issue-955268681) 
 
 ## Instructions
 1. Clone repo `git clone https://github.com/mimike/mapstest.git .`
