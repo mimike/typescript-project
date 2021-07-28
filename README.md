@@ -28,7 +28,7 @@
 
 ## Main Technical Features
 
-Travelp is a web application where users can browse hotels by geolocation select their destination in a search box.
+Travelp is a web application where users can browse hotels by geolocation or select their destination in a search box.
 
 The Google API was used to collect this data. 
 
