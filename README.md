@@ -35,6 +35,14 @@ Users can browse hotels nearby if browser location is turn on or type their dest
 <a href="https://ibb.co/vzkYQy3"><img src="https://i.ibb.co/Lp15Jjx/Screen-Shot-2021-07-28-at-17-51-43.png" alt="Screen-Shot-2021-07-28-at-17-51-43" border="0"></a>
 <a href="https://ibb.co/BN87WDH"><img src="https://i.ibb.co/dgn3C9s/Screen-Shot-2021-07-28-at-17-53-13.png" alt="Screen-Shot-2021-07-28-at-17-53-13" border="0"></a>
 
+## To Do
+
+- [ ] Implement light mode & dark mode
+- [ ] Add aria
+- [ ] Add loading spinner to the Enter by Destination option
+- [ ] Allow users to press enter to search Enter by Destination
+
+
 ## Instructions
 1. Clone repo `git clone https://github.com/mimike/mapstest.git .`
 2. Install dependencies
@@ -52,12 +60,7 @@ Users can browse hotels nearby if browser location is turn on or type their dest
     - Start dev server `npm start`
     - Note: The [Google API](https://console.cloud.google.com/apis/library?project=genuine-tuner-154003&rif_reserved) was used to collect this data. Create a `.env` file in root dir and add your Google API key as `REACT_APP_API_KEY`
 
-## To Do
 
-- [ ] Implement light mode & dark mode
-- [ ] Add aria
-- [ ] Add loading spinner to the Enter by Destination option
-- [ ] Allow users to press enter to search Enter by Destination
 
 
 ##Deploy to Heroku
