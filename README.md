@@ -52,9 +52,11 @@ The greatest challenge was...
 
 ## Architectural Overview
 
-M - 
-V - React
-C - 
+This app uses the MVC architencture pattern and uses the following technologies:
+
+Model - In this iteration of the app, we do not have databaseGoogle API
+View - The user interface is rendered by ReactJS.
+Controller - The middle man, interacts with the user, gets data from the model 
 
 ## Near Future Goals
 
